@@ -1,3 +1,7 @@
-export default function Page() {
-  return <h1>Hello, Dashboard Page!</h1>;
+const BarChart = () => {
+  return <h1>BarChart</h1>;
+};
+
+export default function Dashboard() {
+  return <h1>Dashbord</h1>;
 }
