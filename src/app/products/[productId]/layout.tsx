@@ -7,11 +7,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const random = getRandomInt(2);
+  // const random = getRandomInt(2);
 
-  if (random === 1) {
-    throw new Error("Error loading product");
-  }
+  // if (random === 1) {
+  //   throw new Error("Error loading product");
+  // }
   return (
     <>
       {children}
